@@ -29,8 +29,13 @@
 .images img {
     width: 410px;
     border-radius: 10px;
+    border: 1px solid gold;
 }
-.images h2 {
-    margin: 10px 0;
+.images p {
+    margin: 2px 0;
+    text-transform: capitalize;
+    text-shadow: whitesmoke;
+    font-weight: 600;
+    
 }
 
