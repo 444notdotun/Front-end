@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript DOM </title>
+	<link rel="stylesheet" href="TodoList.css">
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title"> TODO LIST APPLICATION </h1>
+          <p>TODO</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search todo..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Todos</h2>
+	    	<ul>
+	    		<li>
+                    <input type="checkbox">
+	    			<span class="name">Name of the Wind</span>
+	    			<span class="delete">delete</span>
+                    <span class="complete">complete</span>
+	    		</li>
+	    		
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+	    	<input type="text" placeholder="Add a todo..." />
+	    	<button>Add</button>
+	    </form>
+		<h2 ></h2>
+    </div>
+    <script src="TodoList.js"></script>
+  </body>
+</html>
+
