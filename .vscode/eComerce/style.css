@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navLinks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    
+}
+.navLinks a{
+    text-decoration: none;
+    color: black;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.images img {
+    width: 410px;
+    border-radius: 10px;
+}
+.images h2 {
+    margin: 10px 0;
+}
+
