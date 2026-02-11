@@ -60,7 +60,7 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #9361bf;
+    border-color: gold;
 }
 
 .delete{
